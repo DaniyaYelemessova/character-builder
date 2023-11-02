@@ -14,7 +14,7 @@
 
 ## Description:
 
-"Character Creator: Powers & Weapons" is an interactive and fun web-based game that lets you craft your own unique character by choosing their supernatural power and weapon of choice. Whether you envision a speedy wizard, a strong sorcerer, an invisible warrior, or a mind-controlling axe-wielder, this game allows you to bring your character to life.
+Character Creator: Powers & Weapons" is an interactive and fun web-based game that lets you craft your own unique character by choosing their supernatural power and weapon of choice. Whether you envision a speedy wizard, a strong sorcerer, an invisible warrior, or a mind-controlling axe-wielder, this game allows you to bring your character to life.
 
 ## Installation
 
