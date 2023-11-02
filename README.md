@@ -41,7 +41,7 @@ To get started, you'll need to clone this repository to your local machine. Open
 
 ## Deployment:
 
-- [Project online]()
+- [Project online](https://daniyayelemessova.github.io/character-builder/)
 
 ## Known Issues
 
