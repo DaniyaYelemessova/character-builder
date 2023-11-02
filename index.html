@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Character Builder</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+    <h1>Character Builder</h1>
+    <form id="character">
+      <label for="name">What is your character name?</label>
+      <input type="text" id="name" required />
+
+      <h2>Choose a superpower</h2>
+      <label>
+        <input id="speed" type="radio" name="power" value="speed" />
+        Speed
+      </label>
+
+      <label>
+        <input id="strength" type="radio" name="power" value="strength" />
+        Strength
+      </label>
+
+      <label>
+        <input
+          id="invisibility"
+          type="radio"
+          name="power"
+          value="invisibility"
+        />
+        Invisibility
+      </label>
+
+      <label>
+        <input id="mind" type="radio" name="power" value="mind" />
+        Mind Control
+      </label>
+
+      <h2>Choose a weapon:</h2>
+      <select id="weapon">
+        <option value="hands" selected>bare hands</option>
+        <option value="wand">Wand</option>
+        <option value="axe">Battle axe</option>
+      </select>
+      <button type="submit">SHOW CHARACTER</button>
+    </form>
+
+    <h3>Your character:</h3>
+    <p class="output"></p>
+
+    <p class="hidden" id="speedy">
+      You are Sonic the Hedgehog.
+    </p>
+    <p class="hidden" id="speed-wand">
+      You are Doctor Strange.
+    </p>
+    <p class="hidden" id="speed-axe">
+      You are Thor.
+    </p>
+    <p class="hidden" id="strength-hands">
+      You are The Hulk.
+    </p>
+    <p class="hidden" id="strength-wand">
+      You are Hagrid.
+    </p>
+    <p class="hidden" id="strenghty">
+      You are  Kratos (God of War).
+    </p>
+    <p class="hidden" id="invisible-axe">
+      Invisible Assassin with an Axe
+    </p>
+    <p class="hidden" id="invis">
+      You are Harry Potter
+    </p>
+    <p class="hidden" id="mindy">
+      You are Professor X 
+    </p>
+    <p class="hidden" id="mindy-axe">
+      The Puppetmaster Executioner
+    </p>
+  </div>
+  
+
+    <script src="script.js"></script>
+  </body>
+</html>
